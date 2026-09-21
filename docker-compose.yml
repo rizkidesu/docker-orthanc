@@ -20,6 +20,8 @@ services:
       # you must enable the StoneViewer and the DicomWeb plugins
       STONE_WEB_VIEWER_PLUGIN_ENABLED: "true"
       DICOM_WEB_PLUGIN_ENABLED: "true"
+      VOLVIEW_PLUGIN_ENABLED: "true"
+      OHIF_PLUGIN_ENABLED: "true"
 
       ORTHANC__DICOM_WEB__SERIES_METADATA: "Full"
       ORTHANC__DICOM_WEB__STUDIES_METADATA: "Full"

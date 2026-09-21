@@ -9,6 +9,24 @@
   "OrthancExplorer2": {
     "Enable": true,
     "IsDefaultOrthancUI": true
+  },
+  "StoneWebViewer": {
+    "ShowNotForDiagnosticUsageDisclaimer": false,
+    "ShowInfoPanelAtStartup": "Never",
+    "DownloadAsJpegEnabled": true,
+    "DownloadStudyEnabled": true
+  },
+  "DicomWeb": {
+    "Enable": true,
+    "Root": "/dicom-web/",
+    "EnableRequestViaGet": true,
+    "StudiesMetadata": "Full",
+    "SeriesMetadata": "Full"
+  },
+  "VolView": {
+    "Enable": true
+  },
+  "OHIF": {
+    "DataSource": "dicom-web"
   }
-
 }
